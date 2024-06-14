@@ -42,10 +42,10 @@ https://raw.githubusercontent.com/raspberrypilearning/image-id-coral/master/en/r
 
 8. Συνδέουμε το άλλο Adafruit Feather M0 LoRa (κέντρο ελέγχου πυροσβεστικής), το οποίο μπορεί να βρίσκεται ακόμα και σε απόσταση 1 km, με breadboard το οποίο έχει 3 χρωματιστά leds και ένα buzzer.
 Συνδεσμολογία:
-Το πράσινο led με το pin 11.
-Το κίτρινο led με το pin 12.
-Το κόκκινο led με το pin 13.
-Το buzzer με το pin 6.
+-Το πράσινο led με το pin 11.
+-Το κίτρινο led με το pin 12.
+-Το κόκκινο led με το pin 13.
+-Το buzzer με το pin 6.
 
 9. Φορτώνουμε το πρωτότυπο πρόγραμμα forestobs_v3.ino στο Feather του δασικού σταθμού και το πρωτότυπο πρόγραμμα base_v3.ino στο Feather του κέντρου ελέγχου της πυροσβεστικής.
 
