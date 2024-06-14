@@ -31,22 +31,22 @@ https://raw.githubusercontent.com/raspberrypilearning/image-id-coral/master/en/r
 
 6. Συνδέουμε το Raspberry με το ένα Adafruit Feather M0 LoRa.
 Συνδεσμολογία: 
-Το GPIO_pin4 (Raspberry) με το pin 11 (Feather) \
+Το GPIO_pin4 (Raspberry) με το pin 11 (Feather)\
 Το GPIO_pin17 με το pin 12\
 Το GPIO_pin22 με το pin 9\
 Συνδέουμε το Adafruit Feather M0 LoRa (δασικός σταθμός παρατήρησης) με breadboard το οποίο περιέχει το BME280 που είναι αισθητήρας Θερμοκρασίας, Ατμοσφαιρικής Πίεσης και Υγρασίας.
 Συνδεσμολογία:
-Το SCK (BME280) με το SCL (Feather)
-Το SDI με το SDA
-Το VIN με το 3V
-Το GND με το GND
+Το SCK (BME280) με το SCL (Feather)\
+Το SDI με το SDA\
+Το VIN με το 3V\
+Το GND με το GND\
 
 8. Συνδέουμε το άλλο Adafruit Feather M0 LoRa (κέντρο ελέγχου πυροσβεστικής), το οποίο μπορεί να βρίσκεται ακόμα και σε απόσταση 1 km, με breadboard το οποίο έχει 3 χρωματιστά leds και ένα buzzer.
 Συνδεσμολογία:
--Το πράσινο led με το pin 11.
--Το κίτρινο led με το pin 12.
--Το κόκκινο led με το pin 13.
--Το buzzer με το pin 6.
+-Το πράσινο led με το pin 11.\
+-Το κίτρινο led με το pin 12.\
+-Το κόκκινο led με το pin 13.\
+-Το buzzer με το pin 6.\
 
 9. Φορτώνουμε το πρωτότυπο πρόγραμμα forestobs_v3.ino στο Feather του δασικού σταθμού και το πρωτότυπο πρόγραμμα base_v3.ino στο Feather του κέντρου ελέγχου της πυροσβεστικής.
 
