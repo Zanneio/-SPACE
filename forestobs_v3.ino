@@ -27,18 +27,8 @@
 
 Adafruit_BME280 bme; // I2C
 
-
-
-
-
-
 uint32_t timer = millis();
 
-
-
-
-
- 
  
 /* Feather m0 w/wing 
 #define RFM95_RST     11   // "A"
@@ -99,10 +89,7 @@ char Message;
   pinMode(RFM95_RST, OUTPUT);
   digitalWrite(RFM95_RST, HIGH);
 
- 
   delay(100);
- 
-  
  
   // manual reset
   digitalWrite(RFM95_RST, LOW);
@@ -140,8 +127,6 @@ counter=0;
     ///  Serial.println("LoRa Frequency Set Frequency failed");
       }
   
-  
-  
   // Defaults after init are 434.0MHz, 13dBm, Bw = 125 kHz, Cr = 4/5, Sf = 128chips/symbol, CRC on
  
   // The default transmitter power is 13dBm, using PA_BOOST.
@@ -149,17 +134,12 @@ counter=0;
   // you can set transmitter powers from 5 to 23 dBm:
   rf95.setTxPower(23, false);
 
-
-
-
-
   //gps init
 
    //gps init
   
 }
  
-
  
 void loop()
 {
@@ -174,27 +154,18 @@ float Latitude=-1;
 float Longtitude=-1;
 float Altitude=-1;
 
-
 //gps main
 
-
 //gps main
-
-
-
 
 float Temperature=bme.readTemperature();
 float Pressure=bme.readPressure()/100;
 float Humidity=bme.readHumidity();
 Altitude=bme.readAltitude(SEALEVELPRESSURE_PIR);
-
-
-
   
   delay(10); // Wait 1 second between transmits, could also 'sleep' here!
   Serial.println("Transmitting..."); // Send a message to rf95_server
- 
-  
+   
   delay(10);
   byte data[400];
   
@@ -249,9 +220,7 @@ RecognisedMessage=true;
         }}
         
         }}}}}
-
-        
-
+       
     }
     else
     {
@@ -262,14 +231,7 @@ RecognisedMessage=true;
   {
     ///Serial.println("No reply, is there a listener around?");
   }
-
-
-
-
-
-
   
- 
 }
 
 void BuildMessage(byte* data,float Temperature,float Pressure,float Humidity,float Altitude,float Latidute,float Longtitude){
@@ -305,7 +267,6 @@ int sizeofarray=sizeof(Message);
 PacketId++;
   
   }
-
 
 void printValues() {
   
