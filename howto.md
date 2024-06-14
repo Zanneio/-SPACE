@@ -31,9 +31,9 @@ https://raw.githubusercontent.com/raspberrypilearning/image-id-coral/master/en/r
 
 6. Συνδέουμε το Raspberry με το ένα Adafruit Feather M0 LoRa.
 Συνδεσμολογία: 
-Το GPIO_pin4 (Raspberry) με το pin 11 (Feather)
-Το GPIO_pin17 με το pin 12
-Το GPIO_pin22 με το pin 9
+Το GPIO_pin4 (Raspberry) με το pin 11 (Feather) \
+Το GPIO_pin17 με το pin 12\
+Το GPIO_pin22 με το pin 9\
 Συνδέουμε το Adafruit Feather M0 LoRa (δασικός σταθμός παρατήρησης) με breadboard το οποίο περιέχει το BME280 που είναι αισθητήρας Θερμοκρασίας, Ατμοσφαιρικής Πίεσης και Υγρασίας.
 Συνδεσμολογία:
 Το SCK (BME280) με το SCL (Feather)
