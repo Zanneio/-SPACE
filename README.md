@@ -15,20 +15,11 @@
 7. Ανάπτυξη κριτικής σκέψης για επίτευξη στόχων
 
 Λίστα προτεινόμενου εξοπλισμού:
-1.   Ένα Raspberry Pi 4 Model B Kit (8GB),  129 ευρώ.  
-https://www.hellasdigital.gr/go-create/raspberry-and-accessories-el/raspberry-pi-4-and-accessories/raspberry-pi-4-model-b-8gb-low-budget-kit-pi4lb8gb/
 
-https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
-
-2.  Δύο Adafruit Feather M0 LoRa, 0 ευρώ.
-https://www.adafruit.com/product/3179
-
+1. Ένα Raspberry Pi 4 Model B Kit (8GB),  129 ευρώ.  
+2. Δύο Adafruit Feather M0 LoRa, 0 ευρώ.
 3. 4 χρώματα λαμπτήρων, κόκκινο, μπλε, κίτρινο, πράσινο,  2 ευρώ.     
-https://www.hellasdigital.gr/electronics/optoelectronics/10pcs-f3-5mm-red-color-red-light-round-superbright-led/
-
-5. Ένα BME280,   https://www.hellasdigital.gr/electronics/sensors/bme280-environmental-sensor-temperature-humidity-barometric-pressure/ ,   16 ευρώ.
-https://grobotronics.com/adafruit-bme280-i2c-or-spi-temperature-humidity-pressure-sensor.html
-
-6. Ένα breadboard  https://www.hellasdigital.gr/electronics/prototyping/pcb-breadboard/breadboard-translucent-self-adhesive-clear-prt-09567/  ,    5 ευρώ.
-7. Δύο buzzer, https://www.hellasdigital.gr/electronics/components/buzzer/passive-buzzer-alarm-sensor-module/ ,   1 ευρώ.
+5. Ένα BME280,   16 ευρώ.
+6. Ένα breadboard,    5 ευρώ.
+7. Δύο buzzer,   1 ευρώ.
 
