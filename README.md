@@ -23,7 +23,7 @@ https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 2.  Δύο Adafruit Feather M0 LoRa, 0 ευρώ.
 https://www.adafruit.com/product/3179
 
-3. 4 χρώματα λαμπτήρων, κόκκινο, μπλε, κίτρινο, πράσινο,  1.5 ευρώ.     
+3. 4 χρώματα λαμπτήρων, κόκκινο, μπλε, κίτρινο, πράσινο,  2 ευρώ.     
 https://www.hellasdigital.gr/electronics/optoelectronics/10pcs-f3-5mm-red-color-red-light-round-superbright-led/
 
 5. Ένα BME280,   https://www.hellasdigital.gr/electronics/sensors/bme280-environmental-sensor-temperature-humidity-barometric-pressure/ ,   16 ευρώ.
